@@ -13,4 +13,4 @@ elif response.status_code == 404:
 else:
     print("Unable to connect API or retrieve data.")
 
-st.write(response)
+st.write(data)
